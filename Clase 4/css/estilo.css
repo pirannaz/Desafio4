@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------
+# Nuestro primer CSS en curso FrontEnd
+--------------------------------------------------------------*/
+
+body {
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: larger;
+    margin: 5px;
+}
+
+#divcabecera {
+    color:rgb(10, 8, 110);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#divpie {
+    color:black;
+    background-color:rgb(53, 128, 103);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
