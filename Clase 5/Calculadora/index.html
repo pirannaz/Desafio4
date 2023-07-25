@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <script src="app.js"></script>
+
+    </head>
+
+    <body>
+        <form>
+            <label>Numero 1</label>
+            <input type="number" id="numero1">
+            <br>
+            <label>Numero 2</label>
+            <input type="number" id="numero2">
+            <br>
+            <label>Seleccione</label>
+            <select id="operadores">
+                <option value="1">Suma</option>
+                <option value ="2">Resta</option>
+                <option value ="3">Multiplicacion</option>
+                <option value ="4">Division</option>
+                </select>
+                <br>
+            <button onclick="calcular()">Calcular</button>
+        </form>
+
+        <p>Numero 1: <span id="nombre"></span></p>
+        <p>Numero 2: <span id="apellido"></span></p>
+
+        <h2 id="resultado">Resultado</h2>
+    </body>
+</html>
