@@ -1,0 +1,56 @@
+
+<div class="container">
+    <h3>{{user.name}}</h3>
+    
+    <hr>
+    <h5 style="text-align: center;">Detalles de usuario</h5>
+    <table border='1' style="margin: 0 auto;">
+        <tbody>
+            <tr>
+                <th>Nombre de usuario</th>
+                <td>{{user.username}}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{user.email}}</td>
+            </tr>
+            <tr>
+                <th>Calle</th>
+                <td>{{user.address.street}}</td>
+            </tr>
+            <tr>
+                <th>Suite</th>
+                <td>{{user.address.suite}}</td>
+            </tr>
+            <tr>
+                <th>Ciudad</th>
+                <td>{{user.address.city}}</td>
+            </tr>
+            <tr>
+                <th>Codigo postal</th>
+                <td>{{user.address.zipcode}}</td>
+            </tr>
+            <tr>
+                <th>Telefono</th>
+                <td>{{user.phone}}</td>
+            </tr>
+            <tr>
+                <th>Sitio web</th>
+                <td>{{user.website}}</td>
+            </tr>
+            <tr>
+                <th>Compañia</th>
+                <td>{{user.company.name}}</td>
+            </tr>
+            <tr>
+                <th>Slogan</th>
+                <td>{{user.company.catchPhrase}}</td>
+            </tr>
+            <tr>
+                <th>Rubro</th>
+                <td>{{user.company.bs}}</td>
+            </tr>
+                
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,27 @@
+    <section id="testimonials" class="clearfix">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Testimonials</h3>
+          <p>Ususarios que narraran su experiencia tras utilizar nuestros servicios</p>
+
+          <router-outlet></router-outlet>
+        </header>
+    </div>
+  
+    
+    <div class="container">
+      <header class="section-header">
+        <div class="row">
+
+    <app-usuarios *ngFor="let user of users"
+     [nick]="user.name"
+     [variable]="user.id">
+         
+    </app-usuarios>
+
+  </div>
+      </header>
+</div>
+
+    </section>
